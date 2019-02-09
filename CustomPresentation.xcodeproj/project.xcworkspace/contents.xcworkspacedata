@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CardTransition.xcodeproj">
+      location = "self:/Users/kyle/Desktop/CardTransition/CustomPresentation.xcodeproj">
    </FileRef>
 </Workspace>

@@ -9,44 +9,31 @@
 /* Begin PBXBuildFile section */
 		27A05F82220E7D6C00A70F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A05F81220E7D6C00A70F72 /* AppDelegate.swift */; };
 		27A05F84220E7D6C00A70F72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A05F83220E7D6C00A70F72 /* ViewController.swift */; };
-		27A05F87220E7D6C00A70F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A05F85220E7D6C00A70F72 /* Main.storyboard */; };
 		27A05F89220E7D6D00A70F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A05F88220E7D6D00A70F72 /* Assets.xcassets */; };
 		27A05F8C220E7D6D00A70F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A05F8A220E7D6D00A70F72 /* LaunchScreen.storyboard */; };
-		27A05F97220E7D6D00A70F72 /* CardTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A05F96220E7D6D00A70F72 /* CardTransitionTests.swift */; };
+		27A05FA2220E7DE800A70F72 /* ConnectSomethingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A05FA1220E7DE800A70F72 /* ConnectSomethingViewController.swift */; };
+		27A05FA4220E857600A70F72 /* CardPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A05FA3220E857600A70F72 /* CardPresentationController.swift */; };
+		27DDC35F220F3DB800DC27FF /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDC35E220F3DB800DC27FF /* PresentationController.swift */; };
+		27DDC361220F40A400DC27FF /* ToastPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDC360220F40A400DC27FF /* ToastPresentationController.swift */; };
+		27DDC363220F40E800DC27FF /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDC362220F40E800DC27FF /* ToastViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		27A05F93220E7D6D00A70F72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27A05F76220E7D6C00A70F72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27A05F7D220E7D6C00A70F72;
-			remoteInfo = CardTransition;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		27A05F7E220E7D6C00A70F72 /* CardTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A05F7E220E7D6C00A70F72 /* CustomPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A05F81220E7D6C00A70F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A05F83220E7D6C00A70F72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27A05F86220E7D6C00A70F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27A05F88220E7D6D00A70F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27A05F8B220E7D6D00A70F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27A05F8D220E7D6D00A70F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27A05F92220E7D6D00A70F72 /* CardTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27A05F96220E7D6D00A70F72 /* CardTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransitionTests.swift; sourceTree = "<group>"; };
-		27A05F98220E7D6D00A70F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27A05FA1220E7DE800A70F72 /* ConnectSomethingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSomethingViewController.swift; sourceTree = "<group>"; };
+		27A05FA3220E857600A70F72 /* CardPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPresentationController.swift; sourceTree = "<group>"; };
+		27DDC35E220F3DB800DC27FF /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		27DDC360220F40A400DC27FF /* ToastPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPresentationController.swift; sourceTree = "<group>"; };
+		27DDC362220F40E800DC27FF /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		27A05F7B220E7D6C00A70F72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27A05F8F220E7D6D00A70F72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,8 +46,7 @@
 		27A05F75220E7D6C00A70F72 = {
 			isa = PBXGroup;
 			children = (
-				27A05F80220E7D6C00A70F72 /* CardTransition */,
-				27A05F95220E7D6D00A70F72 /* CardTransitionTests */,
+				27A05F80220E7D6C00A70F72 /* CustomPresentation */,
 				27A05F7F220E7D6C00A70F72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,40 +54,58 @@
 		27A05F7F220E7D6C00A70F72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27A05F7E220E7D6C00A70F72 /* CardTransition.app */,
-				27A05F92220E7D6D00A70F72 /* CardTransitionTests.xctest */,
+				27A05F7E220E7D6C00A70F72 /* CustomPresentation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27A05F80220E7D6C00A70F72 /* CardTransition */ = {
+		27A05F80220E7D6C00A70F72 /* CustomPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				27DDC366220F452400DC27FF /* App */,
+				27DDC364220F44F900DC27FF /* View Controllers */,
+				27DDC365220F450200DC27FF /* Presentation Controllers */,
+			);
+			path = CustomPresentation;
+			sourceTree = "<group>";
+		};
+		27DDC364220F44F900DC27FF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27A05F83220E7D6C00A70F72 /* ViewController.swift */,
+				27A05FA1220E7DE800A70F72 /* ConnectSomethingViewController.swift */,
+				27DDC362220F40E800DC27FF /* ToastViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		27DDC365220F450200DC27FF /* Presentation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27A05FA3220E857600A70F72 /* CardPresentationController.swift */,
+				27DDC360220F40A400DC27FF /* ToastPresentationController.swift */,
+				27DDC35E220F3DB800DC27FF /* PresentationController.swift */,
+			);
+			path = "Presentation Controllers";
+			sourceTree = "<group>";
+		};
+		27DDC366220F452400DC27FF /* App */ = {
 			isa = PBXGroup;
 			children = (
 				27A05F81220E7D6C00A70F72 /* AppDelegate.swift */,
-				27A05F83220E7D6C00A70F72 /* ViewController.swift */,
-				27A05F85220E7D6C00A70F72 /* Main.storyboard */,
 				27A05F88220E7D6D00A70F72 /* Assets.xcassets */,
 				27A05F8A220E7D6D00A70F72 /* LaunchScreen.storyboard */,
 				27A05F8D220E7D6D00A70F72 /* Info.plist */,
 			);
-			path = CardTransition;
-			sourceTree = "<group>";
-		};
-		27A05F95220E7D6D00A70F72 /* CardTransitionTests */ = {
-			isa = PBXGroup;
-			children = (
-				27A05F96220E7D6D00A70F72 /* CardTransitionTests.swift */,
-				27A05F98220E7D6D00A70F72 /* Info.plist */,
-			);
-			path = CardTransitionTests;
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27A05F7D220E7D6C00A70F72 /* CardTransition */ = {
+		27A05F7D220E7D6C00A70F72 /* CustomPresentation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27A05F9B220E7D6D00A70F72 /* Build configuration list for PBXNativeTarget "CardTransition" */;
+			buildConfigurationList = 27A05F9B220E7D6D00A70F72 /* Build configuration list for PBXNativeTarget "CustomPresentation" */;
 			buildPhases = (
 				27A05F7A220E7D6C00A70F72 /* Sources */,
 				27A05F7B220E7D6C00A70F72 /* Frameworks */,
@@ -111,28 +115,10 @@
 			);
 			dependencies = (
 			);
-			name = CardTransition;
+			name = CustomPresentation;
 			productName = CardTransition;
-			productReference = 27A05F7E220E7D6C00A70F72 /* CardTransition.app */;
+			productReference = 27A05F7E220E7D6C00A70F72 /* CustomPresentation.app */;
 			productType = "com.apple.product-type.application";
-		};
-		27A05F91220E7D6D00A70F72 /* CardTransitionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27A05F9E220E7D6D00A70F72 /* Build configuration list for PBXNativeTarget "CardTransitionTests" */;
-			buildPhases = (
-				27A05F8E220E7D6D00A70F72 /* Sources */,
-				27A05F8F220E7D6D00A70F72 /* Frameworks */,
-				27A05F90220E7D6D00A70F72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27A05F94220E7D6D00A70F72 /* PBXTargetDependency */,
-			);
-			name = CardTransitionTests;
-			productName = CardTransitionTests;
-			productReference = 27A05F92220E7D6D00A70F72 /* CardTransitionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,13 +133,9 @@
 					27A05F7D220E7D6C00A70F72 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					27A05F91220E7D6D00A70F72 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 27A05F7D220E7D6C00A70F72;
-					};
 				};
 			};
-			buildConfigurationList = 27A05F79220E7D6C00A70F72 /* Build configuration list for PBXProject "CardTransition" */;
+			buildConfigurationList = 27A05F79220E7D6C00A70F72 /* Build configuration list for PBXProject "CustomPresentation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27A05F7D220E7D6C00A70F72 /* CardTransition */,
-				27A05F91220E7D6D00A70F72 /* CardTransitionTests */,
+				27A05F7D220E7D6C00A70F72 /* CustomPresentation */,
 			);
 		};
 /* End PBXProject section */
@@ -179,14 +160,6 @@
 			files = (
 				27A05F8C220E7D6D00A70F72 /* LaunchScreen.storyboard in Resources */,
 				27A05F89220E7D6D00A70F72 /* Assets.xcassets in Resources */,
-				27A05F87220E7D6C00A70F72 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27A05F90220E7D6D00A70F72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,38 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DDC363220F40E800DC27FF /* ToastViewController.swift in Sources */,
 				27A05F84220E7D6C00A70F72 /* ViewController.swift in Sources */,
+				27DDC361220F40A400DC27FF /* ToastPresentationController.swift in Sources */,
 				27A05F82220E7D6C00A70F72 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27A05F8E220E7D6D00A70F72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27A05F97220E7D6D00A70F72 /* CardTransitionTests.swift in Sources */,
+				27A05FA4220E857600A70F72 /* CardPresentationController.swift in Sources */,
+				27A05FA2220E7DE800A70F72 /* ConnectSomethingViewController.swift in Sources */,
+				27DDC35F220F3DB800DC27FF /* PresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		27A05F94220E7D6D00A70F72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27A05F7D220E7D6C00A70F72 /* CardTransition */;
-			targetProxy = 27A05F93220E7D6D00A70F72 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		27A05F85220E7D6C00A70F72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27A05F86220E7D6C00A70F72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		27A05F8A220E7D6D00A70F72 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -361,12 +315,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CardTransition/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomPresentation/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.CardTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.CustomPresentation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,62 +332,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CardTransition/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomPresentation/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.CardTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.CustomPresentation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		27A05F9F220E7D6D00A70F72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CardTransitionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.CardTransitionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardTransition.app/CardTransition";
-			};
-			name = Debug;
-		};
-		27A05FA0220E7D6D00A70F72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CardTransitionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.CardTransitionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardTransition.app/CardTransition";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27A05F79220E7D6C00A70F72 /* Build configuration list for PBXProject "CardTransition" */ = {
+		27A05F79220E7D6C00A70F72 /* Build configuration list for PBXProject "CustomPresentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27A05F99220E7D6D00A70F72 /* Debug */,
@@ -442,20 +356,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27A05F9B220E7D6D00A70F72 /* Build configuration list for PBXNativeTarget "CardTransition" */ = {
+		27A05F9B220E7D6D00A70F72 /* Build configuration list for PBXNativeTarget "CustomPresentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27A05F9C220E7D6D00A70F72 /* Debug */,
 				27A05F9D220E7D6D00A70F72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27A05F9E220E7D6D00A70F72 /* Build configuration list for PBXNativeTarget "CardTransitionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27A05F9F220E7D6D00A70F72 /* Debug */,
-				27A05FA0220E7D6D00A70F72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
